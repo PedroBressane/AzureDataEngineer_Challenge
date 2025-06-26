@@ -2,7 +2,7 @@
 
 Challenge Instructions
 
-![Challenge Instructions](https://github.com/user-attachments/assets/736fd5d4-eca9-471c-8cf3-b4838d26c7fc)
+![Challenge Instructions](https://github.com/user-attachments/assets/6de60de4-fcba-414d-98d5-4bb1a7947d7a)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
