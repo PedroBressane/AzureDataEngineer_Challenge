@@ -1,0 +1,26 @@
+fact_sale
+├── sale_id : PK (sequencial via row_number)
+├── selling_date : DATE
+├── year : INT
+├── month_id : FK → dim_month.month_id
+│   └── dim_month
+│       ├── month_id (PK)
+│       └── month_name
+├── week : INT
+├── flavor_id : FK → dim_flavor.flavor_id
+│   └── dim_flavor
+│       ├── flavor_id (PK)
+│       └── flavor_description
+├── region_desc : TEXT (not FK)
+├── package_category_code : FK → dim_package.package_category_code
+│   └── dim_package
+│       ├── package_category_code (PK)
+│       ├── package_category_description
+│       └── package_name
+├── sales_volume : DOUBLE
+└── channel_id : FK → dim_channel_group.channel_id
+    └── dim_channel_group
+        ├── channel_id (PK) ← TRADE_CHNL_DESC
+        ├── channel_group ← CHNL_GROUP
+        ├── trade_group_desc ← TRADE_GROUP_DESC
+        └── trade_type_desc ← TRADE_TYPE_DESC
