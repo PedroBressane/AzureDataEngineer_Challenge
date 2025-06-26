@@ -1,5 +1,4 @@
 # AzureDataEngineer_Challenge
-Challenge to develop ETL pipelines, transformations and visualizations from CSV files
 
 Challenge Instructions
 
@@ -20,6 +19,7 @@ Key Challenges & Solutions
 1. Data Integration & Quality
 
 Challenge: Merging disparate CSV files (beverage_sales and beverage_channel_features) with inconsistent encodings, missing values, and non-standardized fields (e.g., $ VOLUME with negative values).
+
 Solution: Automated Encoding Detection: Python script to detect and handle file encodings (ex. UTF-8 BOM, UCS 2 Little Endiam BOM).
 
 Data Standardization:
