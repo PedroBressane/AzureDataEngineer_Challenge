@@ -111,13 +111,7 @@ Gold (Aggregated): Business-ready KPIs (e.g., regional sales rankings).
 
 2. Dual Implementation
 
-Component	Delta Lake (Data Lake)	Azure SQL (OLTP)
-
-Storage	Parquet files (optimized)	Indexed relational tables
-
-Processing	PySpark for transformations	Stored procedures + SQL
-
-Use Case	Analytical queries	Transactional reporting
+![component](https://github.com/user-attachments/assets/fb8d2c07-e055-408b-9bf6-bfa8989e1543)
 
 4. Business Insights
 
